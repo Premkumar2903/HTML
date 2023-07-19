@@ -2,13 +2,18 @@
   .heading{
     color: rgb(0, 133, 133);
   }
+  .heading:hover{
+    color: rgb(175, 94, 35);
+  }
+
   .Title{
     color:black;
     font-size: 25px;
     font-weight: bold;
   }
   .price{
-    color:rgb(0, 118, 0)
+    color:rgb(0, 118, 0);
+    font-weight: bold;
   }
   .Add-to-cart{
     background-color: rgb(255, 216, 0);
@@ -18,7 +23,15 @@
     border-radius: 15px;
     cursor: pointer;
     margin-right: 8px;
+    transition: opacity 0.15s;
   }
+  .Add-to-cart:hover{
+    background-color: rgb(228, 196, 9);;
+  }
+  .Add-to-cart:active{
+    opacity: 0.5;
+  }
+
   .Buy-button{
     background-color:rgb(255, 164, 28);
     border: none;
@@ -26,6 +39,13 @@
     width: 110px;
     border-radius: 15px;
     cursor: pointer;
+    transition: 0.15s;
+  }
+  .Buy-button:hover{
+    background-color: rgb(244, 125, 6);
+  }
+  .Buy-button:active{
+    opacity: 0.5;
   }
 
 </style>
