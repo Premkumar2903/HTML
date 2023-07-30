@@ -1,0 +1,18 @@
+p {
+  font-family: arial;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-align: center;
+}
+.heading{
+  font-weight: bold;
+  font-size: 28px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.subheading{
+  margin-bottom: 20px;
+}
+.more{
+  color: rgb(58, 108, 199);;
+}
