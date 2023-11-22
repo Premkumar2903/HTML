@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Grid practise</title>
+  </head>
+  <body>
+    <div style="
+      display: grid;
+      grid-template-columns: 100px 100px;">
+      <dev style="background-color: lightblue;">div 1</dev>
+      <dev style="background-color: lightpink;">div 2<p>Text</p></dev>
+    </div>
+
+    <div style="
+      margin-top: 30px;
+      display: grid;
+      grid-template-columns: 100px 100px 200px;">
+      <dev style="background-color: lightblue;">100px</dev>
+      <dev style="background-color: lightpink;">100px<p>Text</p></dev>
+      <dev style="background-color: lightblue;">200px</dev>
+    </div>
+
+    <div style="
+      margin-top: 30px;
+      display: grid;
+      grid-template-columns: 100px 1fr;">
+      <dev style="background-color: lightblue;">100px</dev>
+      <dev style="background-color: lightpink;">100px</dev>
+    </div>
+
+  <div style="
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 40px;">
+    
+    <dev style="background-color: lightblue; height: 200px;">1fr</dev>
+    <dev style="background-color: lightpink; height: 200px">1fr</dev>
+    <dev style="background-color: lightblue; height: 200px">1fr</dev>
+    <dev style="background-color: lightpink; height: 200px">1fr</dev>
+    <dev style="background-color: lightblue; height: 200px;">1fr</dev>
+    <dev style="background-color: lightpink; height: 200px">1fr</dev>
+  </div>
+  </body>
+</html>
