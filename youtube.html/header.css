@@ -5,9 +5,18 @@
   justify-content: space-between;
   
  }
- .leftbox{
-  background-color: lightblue;
-  width: 150px;
+ .leftbox{  
+  display: flex;
+  align-items: center;
+ }
+ .hamburger-icon{
+  height: 25px;
+  margin-left: 20px;
+  margin-right: 20px;
+ }
+ .youtube-icon{
+  height: 24px;
+  
  }
  .middlebox{
   background-color: lightpink;
