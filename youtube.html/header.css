@@ -19,13 +19,74 @@
   
  }
  .middlebox{
-  background-color: lightpink;
   flex: 1;
   max-width: 500px;
   margin-left: 70px;
   margin-right: 35px;
+  display: flex;
+  align-items: center;
+ }
+ 
+ .searchbox{
+  flex: 1;
+  height: 37px;
+  border-style: solid;
+  border-color: rgb(178, 173, 173);
+  border-width: 1px;
+  font-size: 16px;
+  padding-left: 10px;
+  border-radius: 2px;
+  box-shadow: inset 1px 2px 3px rgba( 0,0,0,0.05);
+  width: 0;
+ }
+ .searchbox::placeholder {
+  font-family: roboto,Arial;
+  font-size: 17px;
+ }
+ .search-button{
+  height: 40px;
+  width: 66px;
+  background-color: rgb(243, 241, 241);
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(178, 173, 173);
+  padding-top: 5px;
+  margin-left: -1px;
+  margin-right: 10px;
+ }
+ .search-icon{
+  height: 30px;
+ }
+ .voice-button{
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+  border: none;
+  background-color: rgb(243, 241, 241);
+  padding-top: 5px;
+ }
+ .voice-icon{
+  height: 25px;
+  
  }
  .rightbox{
-  background-color: lightblue;
   width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 20px;
+  flex-shrink: 0;
+ }
+ .upload-icon{
+  height: 25px;
+ }
+ .ytapps-icon{
+  height: 25px;
+ }
+ .notifications-icon{
+  height: 25px;
+ }
+ .profile-pic{
+  height: 36px;
+  border-radius: 18px;
  }
