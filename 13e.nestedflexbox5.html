@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <style>
+         .container{
+            display: flex;
+            flex-direction: row;
+            width: 420px;
+            margin-top: 10px;
+            margin-bottom: 20px;
+         }
+         .profile{
+            margin-right: 10px;
+         }
+         .profilepicture{
+            height: 60px;
+            width: 60px;
+            border-radius: 30px;
+            object-fit: cover;
+         }
+         .contain{
+            display: flex;
+            flex-direction: row;
+            margin-bottom: 5px;
+         }
+         .username{
+            font-weight: bold;
+            margin-right: 5px;
+         }
+         .userid{
+            color: rgb(106, 106, 106);
+         }
+         .text{
+            line-height: 20px;
+            margin-bottom: 15px;
+         }
+         .tweetcolumn{
+            flex: 1;
+         }
+         .tweetpreview{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            border-width: 1px;
+            border-style: solid;
+            border-color:  rgb(200, 200, 200);
+            border-radius: 15px;
+            overflow: hidden;
+         }
+         .tweetvideo{
+            background-color: rgb(220, 220, 220);
+            height: 100px;
+            width: 150px;
+            margin-right: 10px;
+
+         }
+         .applink{
+            color: rgb(111,111,111);
+            margin-bottom: 5px;
+         }
+         .tweet-text{
+            line-height: 22px;
+         }
+       </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="profile">
+                <img class="profilepicture" src="thumnails/cat 1.jpg">
+            </div>
+            <div class="tweetcolumn">
+                <div class="contain">
+                    <div class="username">Supersimple.dev</div>
+                    <div class="userid">@SuperSimple.Dev</div>
+                </div>
+                <div class="text">What is backend development? A complete overview. New video is up!</div>
+                <div class="tweetpreview">
+                    <div class="tweetvideo"></div>
+                    <div class="tweet-content">
+                        <div class="applink">youtube.com</div>
+                        <div class="tweet-text">Backend Web development - a complete overview (2021)</div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </body>
+</html>
